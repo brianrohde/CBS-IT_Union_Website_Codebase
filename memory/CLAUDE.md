@@ -93,6 +93,43 @@ Do NOT invent new layout patterns unless explicitly requested.
 
 ---
 
+## 4a. Planning & Audit Trail (MANDATORY)
+
+### For Every Task
+1. **Before implementation**: Write plan to `.claude/plans/{date}-{task-name}.md`
+2. **During implementation**: Reference the plan, update if approach changes
+3. **After completion**: Update plan with "Results After Implementation" section
+4. **Document decisions**: Include reasoning and trade-offs
+
+### Plan Structure
+```markdown
+# Task Name
+
+**Date:** YYYY-MM-DD
+**Status:** IN PROGRESS / ✅ COMPLETED
+
+## Initial Plan
+[What you planned to do]
+
+## Results After Implementation
+[What was actually done, metrics, decisions made]
+```
+
+### Why
+- **Auditability**: Future maintainers understand what was done and why
+- **Accountability**: Clear record of decisions and trade-offs
+- **Learning**: Context preserved for similar future tasks
+- **AI-assisted workflows**: Plans help Claude understand project intent
+
+### File Naming
+- Date-first: `2026-04-09-{task-name}.md`
+- Keep names concise and descriptive
+- One plan file per significant task
+
+---
+
+---
+
 ## 5. Component Rules
 
 ### General

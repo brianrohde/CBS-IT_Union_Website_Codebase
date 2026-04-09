@@ -81,19 +81,30 @@ npm run start
 npm run lint
 ```
 
-## Project Memory System
+## Project Memory & Planning System
 
-This project uses a **memory system** to maintain consistency across maintainers and AI-assisted workflows.
+This project uses two complementary systems:
 
-**Always read these files first when working on the project:**
-
+### 1. Memory System (`/memory/`)
+**Permanent rules and guidelines:**
 - `/memory/CLAUDE.md` — AI behavior rules and coding standards
 - `/memory/design-system.md` — Brand colors, fonts, spacing rules
 - `/memory/layouts.md` — Approved page composition patterns
 - `/memory/project-structure.md` — Repository architecture
 - `/memory/decisions.md` — Key architectural decisions
 
-These files are **not** documentation — they are **system rules** that guide all development decisions.
+**Always read these first when working on the project.**
+
+### 2. Planning & Audit System (`.claude/plans/`)
+**Implementation history and decisions:**
+- `.claude/plans/` — All task plans and results
+- Each file: `YYYY-MM-DD-{task-name}.md`
+- Documents initial plan + actual results
+- Provides audit trail for all work done
+
+**Reference these to understand past decisions and context.**
+
+Together, these systems provide **complete project documentation** for consistency, auditability, and knowledge transfer.
 
 ## Pages
 
