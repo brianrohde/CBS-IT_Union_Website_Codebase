@@ -188,6 +188,21 @@ export default function Page() {
 - **Responsive first** — mobile-first design approach
 - **Use spacing scale** — 8, 16, 24, 32, 40, 48, 64
 
+## Development Roadmap
+
+This project follows a structured 3-phase development approach:
+
+### Phase 1 — Stabilize & Wire (Short-term, ~1–2 weeks)
+Close all prototype gaps: Git setup, mobile navigation, contact form wiring, image assets, code quality.
+
+### Phase 2 — Structure & Deploy (Mid-term, ~2–4 weeks)
+Launch to production: Vercel deployment, CI/CD pipeline, content validation, UX polish, event detail pages.
+
+### Phase 3 — Growth & Maintenance (Optional, Long-term)
+Enhance and scale: Backend APIs, CMS integration, analytics, contributor onboarding.
+
+**Full roadmap:** See [`.claude/plans/cbs-it-website-development-roadmap.md`](./.claude/plans/cbs-it-website-development-roadmap.md)
+
 ## Future Enhancements
 
 - Form backend submission (contact page)

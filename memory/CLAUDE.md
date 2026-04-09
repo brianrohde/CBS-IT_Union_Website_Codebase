@@ -95,8 +95,20 @@ Do NOT invent new layout patterns unless explicitly requested.
 
 ## 4a. Planning & Audit Trail (MANDATORY)
 
+### Development Roadmap
+All work follows the 3-phase development roadmap in [`.claude/plans/cbs-it-website-development-roadmap.md`](./.claude/plans/cbs-it-website-development-roadmap.md):
+
+- **Phase 1**: Stabilize & Wire (short-term)
+- **Phase 2**: Structure & Deploy (mid-term)
+- **Phase 3**: Growth & Maintenance (long-term)
+
+Before starting work, check:
+1. What phase is active?
+2. What's the priority?
+3. How does this fit the roadmap?
+
 ### For Every Task
-1. **Before implementation**: Write plan to `.claude/plans/{date}-{task-name}.md`
+1. **Before implementation**: Write plan to `.claude/plans/{phase}-{date}-{task-name}.md`
 2. **During implementation**: Reference the plan, update if approach changes
 3. **After completion**: Update plan with "Results After Implementation" section
 4. **Document decisions**: Include reasoning and trade-offs
@@ -105,6 +117,7 @@ Do NOT invent new layout patterns unless explicitly requested.
 ```markdown
 # Task Name
 
+**Phase:** Phase 1 / Phase 2 / etc.
 **Date:** YYYY-MM-DD
 **Status:** IN PROGRESS / ✅ COMPLETED
 
@@ -295,13 +308,48 @@ Do not improvise outside of it.
 
 ---
 
-## 17. Commands (Reference)
+## 17. Commit Message Standards (MANDATORY)
+
+Use [conventional commits](https://www.conventionalcommits.org/) on all commits:
+
+### Allowed Types
+- `feat` — new feature
+- `fix` — bug fix
+- `content` — content updates (JSON only)
+- `style` — code style, formatting
+- `refactor` — code change without feature/fix
+- `docs` — documentation
+- `test` — test changes
+- `chore` — build, deps, tooling
+- `ci` — GitHub Actions, CI/CD
+
+### Examples
+```
+feat(header): add mobile navigation hamburger
+
+fix(contact): prevent duplicate form submissions
+
+content(events): add april workshop
+
+docs(readme): update roadmap section
+```
+
+### Why
+- enables automated changelog generation
+- provides clear commit history
+- simplifies code review filtering
+- aligns with team standards (pattern from everything-claude-code)
+
+---
+
+## 18. Commands (Reference)
 
 ```bash
-npm run dev
-npm run build
-npm run start
-npm run lint
+npm run dev        # Start dev server
+npm run build      # Build for production
+npm run start      # Run production build
+npm run lint       # Run ESLint + other linters
+npm test           # Run tests (if configured)
 ```
 
 ---
@@ -316,3 +364,4 @@ Respect:
 - structure
 - consistency
 - simplicity
+- the roadmap
