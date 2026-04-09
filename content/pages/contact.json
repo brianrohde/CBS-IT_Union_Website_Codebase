@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "title": "Get in Touch",
+    "subtitle": "Contact Us",
+    "description": "Have a question or interested in partnering with us? We'd love to hear from you."
+  },
+  "form": {
+    "title": "Send us a Message",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Your Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "inquiryType",
+        "label": "Inquiry Type",
+        "type": "select",
+        "options": [
+          { "value": "student", "label": "Student Inquiry" },
+          { "value": "company", "label": "Company Partnership" },
+          { "value": "event", "label": "Event Related" },
+          { "value": "other", "label": "Other" }
+        ],
+        "required": true
+      },
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  }
+}

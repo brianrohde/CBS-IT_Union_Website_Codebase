@@ -1,0 +1,24 @@
+{
+  "partners": [
+    {
+      "id": "1",
+      "name": "Copenhagen Business School",
+      "logoUrl": "/images/partners/cbs-logo.png"
+    },
+    {
+      "id": "2",
+      "name": "Partner Organization 1",
+      "logoUrl": "/images/partners/partner-1.png"
+    },
+    {
+      "id": "3",
+      "name": "Partner Organization 2",
+      "logoUrl": "/images/partners/partner-2.png"
+    },
+    {
+      "id": "4",
+      "name": "Partner Organization 3",
+      "logoUrl": "/images/partners/partner-3.png"
+    }
+  ]
+}

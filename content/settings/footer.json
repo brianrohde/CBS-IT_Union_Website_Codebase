@@ -1,0 +1,47 @@
+{
+  "organization": {
+    "name": "CBS IT Union",
+    "description": "Connecting students across Data Science, Digital Business, and Information Systems."
+  },
+  "email": "hello@cbsitunion.com",
+  "social": [
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com"
+    }
+  ],
+  "links": {
+    "primary": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Events",
+        "href": "/events"
+      },
+      {
+        "label": "Partners",
+        "href": "/partners"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "legal": [
+      {
+        "label": "Privacy",
+        "href": "#"
+      },
+      {
+        "label": "Terms",
+        "href": "#"
+      }
+    ]
+  }
+}

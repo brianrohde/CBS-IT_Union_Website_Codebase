@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Q1 Kickoff Networking Event",
+      "date": "2026-03-15",
+      "description": "Started the year with our community gathering to discuss 2026 initiatives.",
+      "category": "Networking"
+    },
+    {
+      "id": "2",
+      "title": "Machine Learning Fundamentals Talk",
+      "date": "2026-02-28",
+      "description": "Deep dive into ML concepts with practical applications in business.",
+      "category": "Talk"
+    },
+    {
+      "id": "3",
+      "title": "Women in Tech Panel Discussion",
+      "date": "2026-02-10",
+      "description": "Inspiring discussion on career paths and challenges in tech.",
+      "category": "Panel"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "primary": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Events",
+      "href": "/events"
+    },
+    {
+      "label": "Partners",
+      "href": "/partners"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "Where Business Meets Technology",
+    "subtitle": "CBS IT Union",
+    "description": "Connect with students across Data Science, Digital Business, and Information Systems. Collaborate on projects, attend events, and shape the future of tech.",
+    "cta": {
+      "label": "Join the Community",
+      "href": "#events"
+    },
+    "secondaryCta": {
+      "label": "Learn More",
+      "href": "/about"
+    }
+  },
+  "aboutSection": {
+    "title": "What is CBS IT Union?",
+    "description": "CBS IT Union is a student-led organization dedicated to fostering collaboration, innovation, and career opportunities at the intersection of business and technology. We bring together an interdisciplinary community of learners and leaders."
+  },
+  "pillars": {
+    "title": "Our Pillars",
+    "features": [
+      {
+        "title": "Collaboration",
+        "description": "Work with peers across disciplines to solve real-world challenges and build meaningful projects.",
+        "icon": "🤝"
+      },
+      {
+        "title": "Innovation",
+        "description": "Explore emerging technologies and business trends through workshops, talks, and hands-on learning.",
+        "icon": "💡"
+      },
+      {
+        "title": "Opportunity",
+        "description": "Connect with industry leaders and peers to advance your career in tech and business.",
+        "icon": "🚀"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Get Involved?",
+    "subtitle": "Attend our next event or explore partnership opportunities.",
+    "cta": {
+      "label": "View Events",
+      "href": "/events"
+    },
+    "secondaryCta": {
+      "label": "Partner with Us",
+      "href": "/contact"
+    }
+  }
+}

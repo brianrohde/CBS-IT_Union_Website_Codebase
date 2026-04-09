@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "title": "About CBS IT Union",
+    "subtitle": "Meet the Community",
+    "description": "An interdisciplinary student organization connecting Data Science, Digital Business, and Information Systems students at Copenhagen Business School."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "To foster collaboration and innovation by connecting students across disciplines, enabling knowledge sharing, and creating opportunities for professional growth in the evolving tech landscape."
+  },
+  "whatWeDo": {
+    "title": "What We Do",
+    "content": [
+      {
+        "title": "Host Events",
+        "description": "From workshops and talks to networking sessions and competitions, we create spaces for learning and connection."
+      },
+      {
+        "title": "Build Community",
+        "description": "Connect students, faculty, and industry professionals around shared interests in technology and business."
+      },
+      {
+        "title": "Drive Innovation",
+        "description": "Support student projects and initiatives that explore the intersection of business and technology."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Join Us",
+    "subtitle": "Be part of a growing community of innovators and leaders.",
+    "cta": {
+      "label": "Get Involved",
+      "href": "/contact"
+    }
+  }
+}

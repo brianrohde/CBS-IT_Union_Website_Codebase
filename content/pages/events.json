@@ -1,0 +1,10 @@
+{
+  "hero": {
+    "title": "Upcoming Events",
+    "subtitle": "What's Happening",
+    "description": "Join us for workshops, networking events, talks, and more. Explore the future of tech with our community."
+  },
+  "upcoming": {
+    "title": "Coming Soon"
+  }
+}
